@@ -10,8 +10,8 @@ var AWS = require("aws-sdk");
 var docClient = new AWS.DynamoDB.DocumentClient();
 
 // const
-var TableName_MAC = "xxxxxxxx"; // Table name stored MAC address
-var TableName_LOG = "xxxxxxxx"; // Table name for storing device log
+var TableName_MAC = "xxxxxxxx"; // DynamoDB Table name stored MAC address
+var TableName_LOG = "xxxxxxxx"; // DynamoDB Table name for storing device log
 
 // response handler
 global.statusCode = 200;
